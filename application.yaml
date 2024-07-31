@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/zuneishere/eztest.git
+    repoURL: git@github.com:zuneishere/eztest.git
     path: ./manifests
     targetRevision: HEAD
  
@@ -16,6 +16,8 @@ spec:
     namespace: default
 
   syncPolicy:
+    retry:
+      limit: 2
     syncOptions:
     - CreateNamespace=true
 

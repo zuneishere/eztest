@@ -7,7 +7,7 @@ spec:
     matchLabels:
       app: test-ezeelogin
       environment: test
-  replicas: 2    
+    
   template:
     metadata:
       labels:
