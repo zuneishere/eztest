@@ -8,8 +8,9 @@ spec:
 
   source:
     repoURL: https://github.com/zuneishere/eztest.git
+    path: ./manifests
     targetRevision: HEAD
-    path: dev
+ 
   destination: 
     server: https://kubernetes.default.svc
     namespace: default
