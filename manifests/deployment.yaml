@@ -23,7 +23,7 @@ spec:
               memory: 256Mi
           env:
           - name: MONGO_URI
-            value: "mongodb://admin:admin123AD@mongo-0.mongo.default.svc.cluster.local:27017"
+            value: "mongodb://admin:admin123AD@ez-mongodb-cluster.mongodb.svc.cluster.local:27017"
           # These secrets are required to start the pod.
           - name: EZ_LOG
             value: "debug"
