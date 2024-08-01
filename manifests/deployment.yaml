@@ -15,7 +15,7 @@ spec:
         environment: test
     spec:
       containers:
-        - image: ezeelogin/ee:ezeelogin-test-0.4.0
+        - image: ezeelogin/ee:ezeelogin-test-0.5.0
           name: ezeeloginee
           resources:
             requests:
