@@ -24,7 +24,7 @@ spec:
           env:
           - name: MONGO_URI
             value: "mongodb://admin:admin123AD@ez-mongodb-cluster.mongodb.svc.cluster.local:27017"
-          # These secrets are required to start the pod.
+          # These secrets are required to start the pod.s
           - name: EZ_LOG
             value: "debug"
           - name: EZSEK
